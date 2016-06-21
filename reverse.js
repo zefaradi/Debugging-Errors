@@ -1,5 +1,3 @@
-// Goal: reverse the word that is the first argument for this script
-
 var input = process.argv[2];
 
 if (input)

@@ -1,5 +1,3 @@
-// Goal: a function that averages all the numbers passed in
-
 function average(list) {
   var sum = 0;
 
