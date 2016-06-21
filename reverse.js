@@ -1,8 +1,10 @@
+// Goal: reverse the word that is the first argument for this script
+
 var input = process.argv[2];
 
 if (input)
-    console.log(reverse(input));
+  console.log(reverse(input));
 
 function reverse(original) {
-    return orignal.split('').reverseList().join('');
+  return orignal.split('').reverseList().join('');
 }

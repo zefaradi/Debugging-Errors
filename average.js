@@ -1,10 +1,12 @@
+// Goal: a function that averages all the numbers passed in
+
 function average(list) {
-    var sum = 0;
+  var sum = 0;
 
-    for (var num of list) {
-        sum ++ num;
-    }
+  for (var num of list) {
+    sum ++ num;
+  }
 
-    return sum / list.length;
+  return sum / list.length;
 
 console.log(average([3, 5, 7]));
